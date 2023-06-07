@@ -55,7 +55,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="min-h-screen w-full bg-slate-100 flex justify-center items-center">
-        <div className="bg-white flex-1 max-w-md rounded-xl shadow-xl overflow-hidden">
+        <div className="flex-1 max-w-md rounded-xl shadow-xl overflow-hidden">
+          <h1 className="text-5xl font-bold text-center text-slate-600 py-8">
+            React TODO!
+          </h1>
           <input
             type="text"
             className="bg-slate-600 text-white p-6 w-full outline-none text-3xl"
